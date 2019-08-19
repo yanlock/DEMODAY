@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% block titulo %} {% endblock %}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sanchez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Niconne&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'main.css' %}">
 </head>
 <body>
     <header>
-        <div class="logo"><img src="{% static 'img/logo1.jpg' %}" alt=""></div>
+        <div class="logo">
+                <a href="/"><img src="{% static 'img/logo1.jpg' %}" alt=""></a>
+        </div>
         <nav>
             <ul>
-                <a href="/"><li>Home</li></a>
                 <a href="#">Encontre sua receita</a>
                 <a href="#"><li>Sobre</li></a>
             </ul>
@@ -31,6 +36,28 @@
     <div class="content">
         {% block conteudo %} {% endblock %}
     </div>
-    <footer></footer>
+    <footer>
+        <div class="foo_cont">
+            <div class="contato">
+            <h1>Para contato</h1>
+            <div class="email">
+                <h2>SeuReceita@gmail.com</h2>
+            </div>
+        </div>
+        <div class="rede_sociais">
+            <div class="facebook">
+                <a href="#"><img src="{% static 'img/facebook.png' %}" alt=""></a>
+            </div>
+            <div class="twitter">
+                <a href="#"><img src="{% static 'img/twitter.png' %}" alt=""></a>
+            </div>
+            <div class="instagra">
+                <a href="#"><img src="{% static 'img/instagram.png' %}" alt=""></a>
+            </div>
+        </div>
+        </div>
+        
+
+    </footer>
 </body>
 </html>

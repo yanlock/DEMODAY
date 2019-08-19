@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Libre Caslon Text', serif;
 }
 
 body {
@@ -68,7 +68,7 @@ header nav .buttons a .btn {
     width: 120px;
     height: 40px;
     padding: 10px;
-    background: #f52736;
+    background: #c62a13;
     border-radius: 4px;
     text-align: center;
     margin-left: 10px;
@@ -80,18 +80,70 @@ header nav .buttons a .btn:hover {
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.8);
 }
 
+section {
+    background-image: url("..img/background.jpg!d")
+}
+
 .content {
     padding: 20px;
     background-image: url("img/fundo.jpg");
 }
 
 footer {
-    background:#e0434e;
+    background: #7a1216;
+    font-family: 'Libre Caslon Text', serif;
+    color: white;
     height: 120px;
     box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.6);
+    display: flex;
+    font-size: 10px;
+    flex-direction: column-reverse;
 }
 
+.foo_cont {
+    display: flex;
+    justify-content: space-between;
+}
 
+.contato {
+   margin: 10px;
+}
+
+.rede_sociais {
+    display: flex;
+
+}
+
+.facebook img:hover {
+    border-radius: 100px;
+    width: 35px;
+    background-color: #e0434e;
+}
+
+.facebook {
+    margin: 10px;
+
+}
+
+.twitter img:hover {
+    border-radius: 100px;
+    width: 35px;
+    background-color: #e0434e;
+}
+
+.twitter {
+    margin: 10px;
+}
+
+.instagra {
+    margin: 10px;
+}
+
+.instagra img:hover {
+    border-radius: 100px;
+    width: 35px;
+    background-color: #e0434e;
+}
 
 /* HOME */
 
@@ -232,7 +284,7 @@ footer {
 }
 
 .form-box form input[type='file'] {
-    background: #333;
+    background: #FFF;
     padding: 10px;
     border: 1px solid #f52736;
     border-radius: 4px;
@@ -329,4 +381,16 @@ footer {
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
     padding: 10px;
     height: 100%;
+}
+
+.painel .btn {
+    width: 240px;
+    height: 42px;
+    padding: 10px;
+    background: #c62a13;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease-in-out;
+    color: white;
 }
