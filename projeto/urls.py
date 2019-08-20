@@ -29,6 +29,8 @@ urlpatterns = [
     path('logout/', views.do_logout),
     path('painel/', views.painel),
     path('cadastrar-receita/', views.painel_cadastrar_receita),
+    path('sobre/',views.sobre),
+    path('receita/',views.receita),
 ]
 
 if settings.DEBUG: # new
