@@ -1,7 +1,12 @@
-{% extends 'base.html' %} {% load staticfiles %} {% block titulo %}Bolo De Chocolate{% endblock %} {% block conteudo %}
+{% extends 'base.html' %} 
+{% load staticfiles %} 
+
+{% block titulo %}Bolo De Chocolate{% endblock %}
+
+{% block content %}
 <section>
     <div class="imagem_panqueca">
-        <img src="{% static 'img/pamqueca.jpg' %}" alt="Bolo">
+        <img src="{% static 'img/panqueca.jpg' %}" alt="Bolo">
     </div>
     <div class="receita_panqueca">
         <div class="INGREDIENTES">
