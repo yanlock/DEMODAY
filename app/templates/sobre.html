@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block titulo %}Sua Receita{% endblock %}
+
+<body>
+    {% block content %}  
+    <section>
+        <div>
+            <h1>Desenvolvedores</h1>
+        </div>
+        <div class="henrique">
+            <img src="{% static 'img/henrique.jpg' %}" alt="henrique">
+        </div>
+        <div class="luiz">
+            <img src="{% static 'img/luiz.jpg' %}" alt="luiz">
+        </div>
+        <div class="yan">
+            <img src="{% static 'img/yan.jpg' %}" alt="yan">
+        </div>
+    </section>
+    {% endblock %}
+    
+    
