@@ -148,10 +148,11 @@ footer {
 /* HOME */
 
 .grid-home {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 1%;
-    grid-row-gap: 3%;
+    display: flex;
+    justify-content: center;
+    height: 480px;
+    align-items: center; 
+    padding: 90px
 }
 
 .grid-home a {
@@ -394,3 +395,4 @@ footer {
     transition: all 0.3s ease-in-out;
     color: white;
 }
+
