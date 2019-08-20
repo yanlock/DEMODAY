@@ -78,3 +78,4 @@ def painel_cadastrar_receita(request):
             return render(request, 'cadastrar_receita.html', {'msg': 'Erro ao cadastrar receita'})
 
     return render(request, 'cadastrar_receita.html')
+
