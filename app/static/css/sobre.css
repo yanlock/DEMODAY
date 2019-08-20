@@ -1,0 +1,14 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section div{
+
+}
+
+section div h1{
+    font-family: 'Libre Caslon Text', serif;
+}
+
