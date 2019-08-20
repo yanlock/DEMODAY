@@ -49,6 +49,8 @@ def do_logout(request):
     logout(request)
     return render(request, 'home.html')
 
+
+
 @login_required
 def painel(request):
 
@@ -79,3 +81,12 @@ def painel_cadastrar_receita(request):
 
     return render(request, 'cadastrar_receita.html')
 
+
+def sobre(request):
+    return render(request, 'sobre.html')
+
+def receita(request):
+    return render(request, 'receita.html')
+
+def receita(request):
+    return render(request, 'receita.html')
