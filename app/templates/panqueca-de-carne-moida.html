@@ -1,0 +1,85 @@
+{% extends 'base.html' %} {% load staticfiles %} {% block titulo %}Bolo De Chocolate{% endblock %} {% block conteudo %}
+<section>
+    <div class="imagem_panqueca">
+        <img src="{% static 'img/pamqueca.jpg' %}" alt="Bolo">
+    </div>
+    <div class="receita_panqueca">
+        <div class="INGREDIENTES">
+            <h2>INGREDIENTES</h2>
+            <div class="Massa_panqueca">
+                <h3>Massa</h3>
+            </div>
+            <div>
+                <ul>
+                    <li>1 e 1/2 xícara (chá) de farinha de trigo</li>
+                    <li>1 xícara (chá) de leite</li>
+                    <li>2 ovos</li>
+                    <li>4 colheres (sopa) de óleo</li>
+                    <li>sal a gosto</li>
+                </ul>
+            </div>
+            <div class="Recheio_panqueca">
+                <h3>Recheio</h3>
+            </div>
+            <div>
+                <ul>
+                    <li>300 g de carne moída</li>
+                    <li>2 colheres (sopa) de cebola picada ou ralada</li>
+                    <li>1/2 tomate cortado em cubos</li>
+                    <li>1/2 lata de extrato de tomate</li>
+                    <li>1 caixa de creme de leite</li>
+                    <li>sal a gosto</li>
+                    <li>400 g de mussarela fatiado</li>
+                    <li>queijo ralado a gosto</li>
+                </ul>
+            </div>
+        </div>
+        <div class="MODO_DE_PREPARO">
+            <h2>MODO DE PREPARO</h2>
+            <div class="preparo_massa_pan">
+                <h3>Massa</h3>
+            </div>
+            <div>
+                <ul>
+                    <li>Bata no liquidificador os ovos, o leite, o óleo, e acrescente a farinha de trigo aos poucos.</li>
+                    <li>Após acrescentar toda a farinha de trigo, adicione sal a gosto.</li>
+                    <li>Misture a massa até obter uma consistência cremosa.</li>
+                    <li>Com um papel toalha, espalhe óleo por toda a frigideira e despeje uma concha de massa.</li>
+                    <li>Faça movimentos circulares para que a massa se espalhe por toda a frigideira.</li>
+                    <li>Espere até a massa soltar do fundo e vire a massa para fritar do outro lado.</li>
+                </ul>
+            </div>
+            <div class="preparo_recheio_pan">
+                <h3>Recheio</h3>
+            </div>
+            <div>
+                <ul>
+                    <li>Em uma panela, doure a cebola com o óleo e acrescente a carne.</li>
+                    <li>Deixe cozinhar até que saia água da carne, diminua o fogo e tampe.</li>
+                    <li>Acrescente o tomate picado e tampe novamente.</li>
+                    <li>Deixe cozinhar por mais 3 minutos e misture.</li>
+                    <li>Acrescente o extrato de tomate e temperos a gosto.</li>
+                    <li>Deixe cozinhar por mais 10 minutos.</li>
+                    <li>Quando o molho engrossar, desligue o fogo.</li>
+                    <li>Deixe esfriar o molho, acrescente o creme de leite e misture bem.</li>
+                    <li>Quando estiver bem homogêneo, leve novamente ao fogo e deixe cozinhar em fogo baixo por mais 5 minutos.</li>
+                </ul>
+            </div>
+            <div class="Preparo_montagem_pan">
+                <h3>Montagem</h3>
+            </div>
+            <div>
+                <ul>
+                    <li>Recheie a panqueca com uma fatia de mussarela, uma porção de carne e enrole.</li>
+                    <li>Faça esse processo com todas as panquecas.</li>
+                    <li>Despeje um pouco de caldo no fundo de um refratário, para untar.</li>
+                    <li>Disponha as panquecas já prontas no refratário e despeje sobre elas o restante do molho.</li>
+                    <li>Polvilhe queijo ralado sobre as panquecas.</li>
+                    <li>Leve ao forno para gratinar, em fogo médio, por 20 minutos ou até que o queijo esteja derretido.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</section>
+{% endblock %}
