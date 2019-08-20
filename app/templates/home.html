@@ -4,24 +4,6 @@
 {% block titulo %}Sua Receita{% endblock %}
 
 {% block conteudo %}
-            <div class="grid-home">
-        <a href="">
-            <div class="bloco">
-                <div class="imagem">
-                    <img src="{% static 'img/bolo.jpg' %}" alt="Bolo">
-                </div>
-                <div class="infos">
-                    <p>bolinho</p>
-                    <p>bom</p>
-                </div>
-                <div class="by">Postada por: Maria</div>
-                <div class="avaliation">
-                    <div class="like"></div>
-                    <div class="dislike"></div>
-                </div>
-            </div>
-        </a>
-    </div>
     <div class="grid-home">
         {% for rc in receita %}
         <a href="">
