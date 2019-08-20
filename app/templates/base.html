@@ -1,6 +1,6 @@
 {% load staticfiles %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,8 +19,8 @@
         </div>
         <nav>
             <ul>
-                <a href="#">Encontre sua receita</a>
-                <a href="#"><li>Sobre</li></a>
+                <a href="/receita">Encontre sua receita</a>
+                <a href="/sobre"><li>Sobre</li></a>
             </ul>
             <div class="buttons">
                 {% if user.is_authenticated %}
