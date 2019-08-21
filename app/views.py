@@ -87,6 +87,3 @@ def sobre(request):
 
 def receita(request):
     return render(request, 'receita.html')
-
-def receita(request):
-    return render(request, 'receita.html')
